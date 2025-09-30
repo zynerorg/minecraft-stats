@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/devcontainers/rust:latest
+FROM mcr.microsoft.com/devcontainers/rust:2-1-bullseye
