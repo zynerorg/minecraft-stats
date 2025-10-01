@@ -75,7 +75,7 @@ async fn main() -> anyhow::Result<()> {
 
     let password = match cli.password {
         Some(pw) => pw,
-        None => prompt_password("Password: ").expect("failt to read password"),
+        None => prompt_password("Password: ").expect("failed to read password"),
     };
 
     let mut url =
